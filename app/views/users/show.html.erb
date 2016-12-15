@@ -1,0 +1,17 @@
+<div id="show">
+	<div class="row">
+		<div>First Name:</div>
+		<div><%= @user.first_name %></div>
+	</div>
+	<div class="row">
+		<div>Last Name:</div>
+		<div><%= @user.last_name %></div>
+	</div>
+	<div class="row">
+		<div>Email Address:</div>
+		<div><%= @user.email_address %></div>
+	</div>
+	<div class="links">
+		<a href="/users/<%= @user.id %>/edit">Edit</a> | <a href="/users">Back</a>
+	</div>
+</div>
